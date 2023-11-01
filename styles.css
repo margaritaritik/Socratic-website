@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     border: none;
+    font-family: inherit;
 }
 
 *,
@@ -28,18 +29,57 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: inherit;
 }
 .wrapper {
-   width: 100%;
-   margin: 45px 0px 0px 61px;
+   /*width: 100%;*/
+   margin: 45px 120px 0px 120px;
 }
 .content{
     margin-top: 152px;
-    width: 100%;
-    max-width: 400px;
+    width: 45%;
+    /*max-width: 400px;*/
 }
 .container {
     display: flex;
     width: 100%;
+    justify-content: space-between;
 }
 h1{
+    font-weight: bold;
+    font-size: 49px;
     margin: 26px 0px 35px 0px;
+}
+h1 span{
+    color: #3ca8f0;
+}
+
+button{
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    background: #3ca8f0;
+    margin-top: 48px;
+    padding: 15px 40px;
+}
+
+.content p:first-child{
+    color:#3ca8f0;
+    font-weight: bold;
+}
+
+.logo{
+    display: flex;
+}
+.logo a{
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    width: 100%;
+    margin: auto;
+}
+
+.photo{
+    width: 50%;
+}
+
+.photo img{
+    width: 100%;
 }
