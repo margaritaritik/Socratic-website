@@ -59,6 +59,9 @@ button{
     margin-top: 48px;
     padding: 15px 40px;
 }
+button:hover{
+    background: linear-gradient(0deg, rgba(93,190,255,1) 0%, rgba(85,92,182,0.8548669467787114) 64%, rgba(240,85,122,0.9192927170868347) 100%);
+}
 
 .content p:first-child{
     color:#3ca8f0;
@@ -82,4 +85,49 @@ button{
 
 .photo img{
     width: 100%;
+}
+/*/////////////////////////////////////////////////////*/
+
+@media (max-width: 800px) {
+    .content{
+        width: 100%;
+        margin-top: 63px;
+    }
+    .container{
+        display: block;
+        width: 100%;
+    }
+    .photo{
+        z-index: -10;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 65px;
+        margin: 0 auto;
+    }
+    .photo img{
+        filter: opacity(25%)
+    }
+    button{
+
+    }
+    .wrapper{
+        margin: 20px 20px 0px 20px;
+    }
+    h1{
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 1230px) {
+    .content{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .photo{
+        width: 100%;
+    }
+    .photo img{
+        width: 100%;
+    }
 }
