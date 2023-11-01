@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+aside, nav, footer, header, section, main {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+    font-weight: inherit;
+}
+.wrapper {
+   width: 100%;
+   margin: 45px 0px 0px 61px;
+}
+.content{
+    margin-top: 152px;
+    width: 100%;
+    max-width: 400px;
+}
+.container {
+    display: flex;
+    width: 100%;
+}
+h1{
+    margin: 26px 0px 35px 0px;
+}
